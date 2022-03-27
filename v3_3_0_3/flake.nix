@@ -11,6 +11,7 @@
   inputs.src-glfw-v3_3_0_3.ref   = "refs/tags/v3.3.0.3";
   inputs.src-glfw-v3_3_0_3.owner = "johnnovak";
   inputs.src-glfw-v3_3_0_3.repo  = "nim-glfw";
+  inputs.src-glfw-v3_3_0_3.dir   = "";
   inputs.src-glfw-v3_3_0_3.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

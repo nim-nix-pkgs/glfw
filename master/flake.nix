@@ -11,6 +11,7 @@
   inputs.src-glfw-master.ref   = "refs/heads/master";
   inputs.src-glfw-master.owner = "johnnovak";
   inputs.src-glfw-master.repo  = "nim-glfw";
+  inputs.src-glfw-master.dir   = "";
   inputs.src-glfw-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
